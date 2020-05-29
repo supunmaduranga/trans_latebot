@@ -1,0 +1,32 @@
+{
+  "name": "trans_latebot",
+  "version": "1.0.0",
+  "description": "Simple Telegram translator bot. Working as Inline",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quiec/trans_late_bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram",
+    "bot",
+    "telegram",
+    "inline",
+    "bot"
+  ],
+  "author": "Yusuf Usta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quiec/trans_late_bot/issues"
+  },
+  "homepage": "https://github.com/quiec/trans_late_bot#readme",
+  "dependencies": {
+    "google-tts-api": "0.0.4",
+    "telegraf": "^3.38.0",
+    "translation-google": "^0.2.1"
+  }
+}
