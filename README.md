@@ -4,7 +4,7 @@ Simple NodeJS Telegram Inline translator bot with TTS Support
 Available in Telegram as @Trans_LateBot
 ## Install
 
-    git clone https://github.com/quiec/Trans-LateBot
+    git clone https://github.com/quiec/Trans_LateBot
     cd Trans-LateBot
     npm install
 Then edit `bot.js`, replace BotToken, write the token of your own bot.
