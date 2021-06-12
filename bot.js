@@ -124,28 +124,28 @@ Welsh	cy`}};
 })
 
 bot.start((ctx) => 
-    ctx.reply(`Hi, I'm Trans_Late. A Telegram bot 🤖 that can help you communicate with friends and strangers around the world without the need of understand each other language. I have several features that are very useful for that goal.\
+    ctx.reply(`Hi, I'm Translate bot 🇱🇰. A Telegram bot 🤖 that can help you communicate with friends and strangers around the world without the need of understand each other language. I have several features that are very useful for that goal.\
 
-🗣 How to use the /inline feature    
-💡 This bot created by @QuLeC. Please follow updates in @Quiecs`))
+🗣 How to use the bot type /inline , feature    
+💡 This bot created by @supunma 🇱🇰 . Please follow updates in @slbotzone `))
 
 bot.command('inline', ({ reply }) => reply(
     `Inline Translation 🗣
 You can use me anytime, in any conversation, to translate any text you want.
     
-Invoke me writing @trans_latebot and press <space>. 
-Then, start writing the language you want to translate from and look for the language code, write it and press <space> again.
+ 🌟 Invoke me writing  @Translateslbot  and press <space>. 
+Then, start writing the language you want to translate from and look for the language code, ✔️write it and press <space> again.
 Repeat the process with the language you want to translate to.
-Finally, write the text.
+Finally, write the text 😋.
     
-TL;DR: If you want to translate from English 🇬🇧 to Turkish 🇹🇷, you should write @trans_latebot en tr <text>
+TL;DR: If you want to translate from sinhala 🇱🇰 to  English 🇬🇧 , you should write  @Translateslbot en tr <text>
     
 Bot, can detect languages ​​automatically. It can see the language of your Telegram also it can find what language you are writing.
 
-💡Practical example: @Trans_Latebot en tr Hello there!
-💡Practical example of auto-detect: @Trans_Latebot Hello there! (My Telegram is Turkish, and I gave english text. Its should translate from English to Turkish)`))
+💡Practical example:@Translateslbot en tr Hello there!
+💡Practical example of auto-detect: @Translateslbot  Hello there! (My Telegram is sri lanka , and I gave english text. Its should translate from sinhala to english )`))
   
   
-console.log("Bot is working")
+console.log(" 😋 Bot is working")
 bot.catch((error) => {console.log(error)})
 bot.launch()
